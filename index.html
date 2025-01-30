@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINK | 2025</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <p id="texto">Você está pronto pra viver tudo isso?❤️‍🔥❤️‍🔥</p>
+        <button id="playButton">Iniciar Video</button>
+
+        <div class="video-container">
+            <video id="video-link" style="display: none;" playsinline>
+                <source src="video-link.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="modal" id="modal" style="display: none;">
+            <div class="modal-content">
+                <p>Você será redirecionado para um grupo no WhatsApp em <span id="contador">5</span>s</p>
+                <button id="redirectButton">Ir agora</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
