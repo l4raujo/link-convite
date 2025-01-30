@@ -33,11 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000);
     });
 
-    // Função para redirecionamento
-    // function redirecionarAgora() {
-   //     window.location.href = "https://chat.whatsapp.com/Ce7GngWtGaE8tNxQ1JHP7l";
-  //  }
+     function redirecionarAgora() {
+       window.location.href = "https://chat.whatsapp.com/Ce7GngWtGaE8tNxQ1JHP7l";
+    }
 
-    // Botão "Ir agora" também redireciona
-    // redirectButton.addEventListener("click", redirecionarAgora);
+     redirectButton.addEventListener("click", redirecionarAgora);
 });
