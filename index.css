@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .container p{
@@ -70,15 +70,16 @@ video{
 .modal-content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20%;
     flex-direction: column;
     width: 80%;
-    height: 34vh;
+    height: 40vh;
     background: #222;
-    padding: 20px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    padding: 0 15px;
 }
 
 .modal button {

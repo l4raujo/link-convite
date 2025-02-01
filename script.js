@@ -22,15 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
     video.addEventListener("ended", () => {
         modal.style.display = "flex";
 
-        const intervalo = setInterval(() => {
-            tempoRestante--;
-            contador.innerText = tempoRestante;
-
-            if (tempoRestante === 0) {
-                clearInterval(intervalo);
-                redirecionarAgora();
-            }
-        }, 1000);
     });
 
      function redirecionarAgora() {
